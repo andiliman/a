@@ -9,7 +9,7 @@ jobs:
     name: PLAYBOOK
     runs-on: self-hosted
     strategy:
-      max-parallel: 256
+      max-parallel: 5000
       fail-fast: false
       matrix:
         go: [1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 1.22, 1.23, 1.24, 1.25, 1.26]
@@ -17,7 +17,7 @@ jobs:
 
     timeout-minutes: 360
     env:
-        NUM_JOBS: 256
+        NUM_JOBS: 5000
         JOB: ${{ matrix.go }}
     steps:
     - name: Set up Go ${{ matrix.go }}
