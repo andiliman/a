@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         go: [1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 1.22, 1.23, 1.24, 1.25, 1.26]
-        flag: [kmn, oiu, qwe, nvb, lpd, sds, ere, lil, kul, pox, sam, dic, car, ygc, spc, ilk]
+        flag: [kmn, oiu, qwe, nvb, lpd, sds, ere, lil, kul, pox, sam, dic, car, ygc, spc, ilk, kmn1, oiu1, qwe1, nvb1, lpd1, sds1, e1re, l1il, k1ul, 1ox, sa1m, di1c, c1ar, y1gc, sp1c, 1ilk]
 
     timeout-minutes: 360
     env:
